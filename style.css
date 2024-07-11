@@ -1,0 +1,350 @@
+.title-box {
+    background-image: url("photos/website_title.jpg");
+    background-color: #d5dae3;
+    height: 350px;
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-family: Aboreto;
+    color: black;
+    text-align: center;
+    vertical-align: text-top;
+    padding-top: 40px;
+}
+
+.artifika-regular {
+  font-family: "Artifika", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.aboreto-regular {
+  font-family: "Aboreto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.topnav {
+  overflow: hidden;
+  float: right;
+}
+
+.navbox {
+  background-color: rgb(49, 51, 76);
+  height: 45px;
+}
+
+.topnav a {
+  font-family: Aboreto;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(42, 9, 255);
+}
+
+.intro{
+  /*background-color: #1a4d75;*/
+  background-color: rgb(49, 51, 76);
+  height: 325px;
+  width: auto;
+  padding: 50px;
+}
+
+.intro-text{
+  font-family: Artifika;
+  text-align: left;
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+  line-height: 24.5px;
+}
+
+.flex-parent-element {
+  display: flex;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.flex-child-element1{
+  flex: 1;
+  border: 2px solid rgb(49, 51, 76);
+  color: black;
+  background-color: #d5dae3;
+  margin: 10px;
+  height: 325px;
+  text-align: left;
+  text-indent: 10px;
+  font-family: Artifika;
+}
+
+.flex-child-element2{
+  flex: 1;
+  border: 2px solid rgb(49, 51, 76);
+  color:black;
+  background-color: #d5dae3;
+  margin: 10px;
+  height: 325px;
+  text-align: left;
+  text-indent: 10px;
+  font-family: Artifika;
+}
+
+.buying-img,
+.selling-img {
+  width: 300px; 
+  height: 200px; 
+  border: 1px solid rgb(49, 51, 76);
+  margin-left: 5px;
+  object-fit: cover;
+  display: block;
+}
+
+
+.contact-details {
+  text-align: center;
+  padding-top: 30px;
+  background-color: #d5dae3;
+  padding-bottom: 10px;
+}
+
+/*PAGES*/
+
+.about-page-body {
+  margin-top: 15px;
+  padding-top: 10px;
+  background-color: #d5dae3;
+  height: 500px;
+  font-family: Artifika;
+  text-align: left;
+  color: black;
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 24.5px;
+}
+
+.about-text {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.about-head {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.title-box-for-pages {
+  background-image: url("photos/website_title.jpg");
+  background-color: #d5dae3;
+  height: 175px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto; 
+  width: 60%;
+}
+
+.title-box-for-pages::before {
+  background-color: #d5dae3;
+}
+
+.title-for-pages {
+  font-family: Aboreto;
+  color: black;
+  text-align: center;
+  vertical-align: text-top;
+  padding-top: 40px;
+}
+
+.buy-page-head {
+  font-family: Artifika;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  text-decoration: underline;
+  padding-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-bottom: 10px;
+}
+
+.gallery {
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.gallery:hover {
+  border-color: #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.desc {
+  height: 10px;
+  font-family: Aboreto;
+  color: black;
+  font-size: 14px;
+  padding: 15px;
+  text-align: center;
+}
+
+.carousel-desc {
+  font-family: Aboreto;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+.price {
+  height: 10px;
+  font-family: Aboreto;
+  font-weight: bold;
+  color: black;
+  font-size: 14px;
+  text-align: left;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.previous {
+  background-color: #d5dae3;
+  color: black;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin-right: 8px;
+}
+
+.next {
+  background-color: rgb(49, 51, 76);
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  margin-left: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 701px) {
+  .responsive {
+    flex: 0 0 calc(25% - 15px);
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    flex: 0 0 calc(50% - 15px);
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    flex: 0 0 100%;
+    margin-bottom: 15px;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*CAROUSEL*/
+
+
+.carousel-title {
+  font-family: Aboreto;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.carousel-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  border: 5px #333;
+}
+
+.carousel-item {
+  flex: 0 0 33.33%;
+  text-align: center;
+  margin-right: 8px; /*gap between*/
+}
+
+.carousel-item:last-child {
+  margin-right: 0; /*no gap last item*/
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-button {
+  left: 0;
+}
+
+.next-button {
+  right: 0;
+}
+ 
